@@ -8,7 +8,7 @@
 #!/bin/bash
 
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
-    echo "!!!!No Working !! Must be use root to run this script." |lolcat 
+    echo "Must be use root to run this script."
     exit
 fi
 
@@ -17,7 +17,7 @@ fi
     exit 
 }
 cat /dev/null >/var/log/messages && {
-    echo "!!!Congratulation!!logs were cleaned up." |lolcat
+    echo "Congratulation!logs were cleaned up." |lolcat
     exit 
 }
     echo "logs cleaned up fail."
