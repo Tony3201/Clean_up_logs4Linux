@@ -1,8 +1,8 @@
 #########################################################################
 # Name: Clean_up_logs
-# Version: 1.0
+# Version: 1.1
 # Author: Tony3201 
-# Created Time: Apr 29 2019		
+# Created Time: Apr 08 2020	
 #########################################################################
 
 #!/bin/bash
@@ -17,7 +17,7 @@ fi
     exit 
 }
 cat /dev/null >/var/log/messages && {
-    echo "Congratulation!logs were cleaned up." |lolcat
+    echo "Congratulation!logs were cleaned up."
     exit 
 }
     echo "logs cleaned up fail."
