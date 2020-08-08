@@ -2,7 +2,7 @@
 # Name: Clean_up_logs                           #                          
 # Version: 1.1                                  #
 # Author: Tony3201                              #
-# Created Time: Apr 08 2020	                #
+# Created Time: Apr 08 2020	                    #
 #################################################
 
 #!/bin/bash
