@@ -8,7 +8,7 @@
 #!/bin/bash
 
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
-    echo "Must be use root to run this script."
+    echo "Must be use root."
     exit
 fi
 
